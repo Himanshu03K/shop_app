@@ -11,6 +11,7 @@ import 'package:shop_app/screens/profile/profile_screen.dart';
 import 'package:shop_app/screens/sign_in/sign_in_screen.dart';
 import 'package:shop_app/screens/splash/splash_screen.dart';
 import 'package:shop_app/screens/favourites/fav_screen.dart';
+import 'package:shop_app/screens/notifications/notification_screen.dart';
 
 import 'screens/sign_up/sign_up_screen.dart';
 
@@ -29,4 +30,5 @@ final Map<String, WidgetBuilder> routes = {
   CartScreen.routeName: (context) => CartScreen(),
   ProfileScreen.routeName: (context) => ProfileScreen(),
   FavouriteScreen.routeName: (context) => FavouriteScreen(),
+  //NotificationScreen.routeName: (context) => NotificationScreen(),
 };

@@ -61,15 +61,6 @@ class CustomBottomNavBar extends StatelessWidget {
               ),
               IconButton(
                 icon: SvgPicture.asset(
-                  "assets/icons/Chat bubble Icon.svg",
-                  color: MenuState.home == selectedMenu
-                      ? kPrimaryColor
-                      : inActiveIconColor,
-                ),
-                onPressed: () {},
-              ),
-              IconButton(
-                icon: SvgPicture.asset(
                   "assets/icons/User Icon.svg",
                   color: MenuState.profile == selectedMenu
                       ? kPrimaryColor

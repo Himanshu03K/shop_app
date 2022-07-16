@@ -10,7 +10,7 @@ class FavouriteScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Favourite"),
+        title: Text("Favourites"),
       ),
       body: Body(),
       bottomNavigationBar:
