@@ -24,10 +24,9 @@ class HomeHeader extends StatelessWidget {
             press: () => Navigator.pushNamed(context, CartScreen.routeName),
           ),
           IconBtnWithCounter(
-            svgSrc: "assets/icons/Bell.svg",
-            numOfitem: 3,
-            press: () {},
-          ),
+              svgSrc: "assets/icons/Bell.svg", numOfitem: 3, press: () {}
+              //=>Navigator.pushNamed(context, NotificationScreen.routeName),
+              ),
         ],
       ),
     );
